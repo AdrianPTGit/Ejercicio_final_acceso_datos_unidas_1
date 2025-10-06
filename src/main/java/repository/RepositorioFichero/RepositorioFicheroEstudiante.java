@@ -22,8 +22,18 @@ public class RepositorioFicheroEstudiante implements repository.interfazFicheros
     }
 
 
-    public void eliminarEstudiante(int id){
+    public void eliminarEstudiante(int id, ArrayList<Estudiante> estudiante){
+        int idEstudianteBuscado=id;
 
+        for (Estudiante e: estudiante) {
+            if (e.getId() == idEstudianteBuscado) {
+                System.out.println("Ya existe el estudiante en el fichero: "+nombreFicheroEstudiante);
+                estudiante.remove(estudiante);
+
+            } else {
+                System.out.println("El estudiante no existe en el fichero: "+nombreFicheroEstudiante);
+            }
+        }
     }
 
 

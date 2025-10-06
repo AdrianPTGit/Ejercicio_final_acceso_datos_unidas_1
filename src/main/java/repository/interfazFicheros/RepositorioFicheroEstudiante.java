@@ -10,7 +10,7 @@ public interface RepositorioFicheroEstudiante {
 
     void guardarEstudiante(Estudiante estudiante) throws IOException;
 
-    void eliminarEstudiante(int id);
+    void eliminarEstudiante(int id, ArrayList<Estudiante> listaEstudiantes);
 
     void buscarEstuiantePorId(int id, ArrayList<Estudiante> listaEstudiantes);
 
