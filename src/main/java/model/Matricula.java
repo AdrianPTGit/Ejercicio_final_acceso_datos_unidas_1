@@ -9,7 +9,7 @@ public class Matricula {
    Double nota;
 
     /*************************CONSTRUCTOR*****************************************************/
-    public Matricula(int idMatricula, Estudiante nombre, Date fecha, Double nota) {
+    public Matricula(int idMatricula, Estudiante idEstudiante, Date fecha, Double nota) {
         this.idMatricula=idMatricula;
         this.idEstudiante = idEstudiante;
         this.fecha = fecha;
