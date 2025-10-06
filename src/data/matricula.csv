@@ -1,4 +1,4 @@
-id_alumno,id_asignatura,fecha,nota
+id_alumno,nombre_asignatura,fecha,nota
 1,101,2025-09-15,8.5
 2,102,2025-09-16,7.0
 3,103,2025-09-17,9.2

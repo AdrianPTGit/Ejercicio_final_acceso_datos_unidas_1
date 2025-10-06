@@ -2,23 +2,23 @@ package model;
 
 public class Estudiante {
     //Un alumno tiene los campos id, nombre y email
-    private int id;
+    private int idEstudiante;
     private String nombre;
     private String email;
 
     /*************************CONSTRUCTOR*****************************************************/
     public Estudiante(int id, String nombre, String email) {
-        this.id = id;
+        this.idEstudiante = idEstudiante;
         this.nombre = nombre;
         this.email = email;
     }
     /*************************GET Y SET*******************************************************/
     public int getId() {
-        return id;
+        return idEstudiante;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.idEstudiante = id;
     }
 
     public String getNombre() {
@@ -40,7 +40,7 @@ public class Estudiante {
     @Override
     public String toString() {
         return "Estudiante{" +
-                "id=" + id +
+                "id=" + idEstudiante +
                 ", nombre='" + nombre + '\'' +
                 ", email='" + email + '\'' +
                 '}';

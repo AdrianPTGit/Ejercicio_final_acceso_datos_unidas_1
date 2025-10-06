@@ -17,9 +17,10 @@ public class RepositorioFicheroMatricula implements repository.interfazFicheros.
     }
 
     @Override
-    public Matricula buscarMatriculaPorNombre(String nombreMatricula) {
+    public Matricula buscarMatriculaPorId(int idMatricula) {
         return null;
     }
+
 
     @Override
     public ArrayList<Matricula> mostarMatricuka() {

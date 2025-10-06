@@ -11,7 +11,7 @@ public interface RepositorioFicheroMatricula {
 
     void eliminarMatricula();
 
-    Matricula buscarMatriculaPorNombre(String nombreMatricula);
+    Matricula buscarMatriculaPorId(int idMatricula);
 
     ArrayList<Matricula> mostarMatricuka();
 }
