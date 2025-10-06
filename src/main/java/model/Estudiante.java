@@ -7,11 +7,13 @@ public class Estudiante {
     private String email;
 
     /*************************CONSTRUCTOR*****************************************************/
-    public Estudiante(int id, String nombre, String email) {
+    public Estudiante(int idEstudiante, String nombre, String email) {
         this.idEstudiante = idEstudiante;
         this.nombre = nombre;
         this.email = email;
     }
+
+
     /*************************GET Y SET*******************************************************/
     public int getId() {
         return idEstudiante;
